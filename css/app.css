@@ -81,13 +81,20 @@ section {
 	vertical-align: baseline;
 }
 section>* {
-	margin: 0 10px;
+	margin: 0 10px !important;
 }
 form#search {
 	text-align: center;
 }
 form#search input[type=submit] {
 	width: 40%;
+	height: 40px;
+	font-weight:bold;
+	border:1px solid #dcdcdc;
+	background: linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	border-radius: 5px;
+	color: grey;
+	text-transform:capitalize;
 }
 form#search select {
 	width: 80%;
@@ -106,4 +113,11 @@ select>option {
 	border-bottom: 2px solid white;
 	background: lightgrey;
 	color: grey;
+}
+ul {
+	padding: 10px 0;
+}
+ul>li {
+	border-left: 5px groove white;
+	padding: 5px 15px;
 }
