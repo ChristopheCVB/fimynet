@@ -88,28 +88,25 @@ form#search {
 }
 form#search input, form#search select {
 	background: linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	border:1px solid #dcdcdc;
+	height: 40px;
+	font-weight:bold;
+	color: grey;
+	padding: 5px 3px 5px 10px;
+	border-radius: 5px;
 }
 form#search input:active, form#search input[type=submit]:active {
 	background: linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
 }
 form#search input[type=submit] {
 	width: 40%;
-	height: 40px;
-	font-weight:bold;
-	border:1px solid #dcdcdc;
 	border-radius: 5px;
-	color: grey;
 	text-transform:capitalize;
 }
 form#search select {
 	width: 80%;
 }
 select {
-	height: 40px;
-	color: #747A80;
-	border: #2C343C ;
-	padding: 5px 3px 5px 10px;
-	border-radius: 5px;
 	margin: 5px 0;
 }
 select>option {
